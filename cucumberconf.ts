@@ -9,9 +9,20 @@ export let config: Config = {
     frameworkPath: require.resolve('protractor-cucumber-framework'),
     // Capabilities to be passed to the webdriver instance.
     
+    
     capabilities: {
       browserName: 'chrome'
     },
+
+    /*multiCapabilities: [{
+      browserName: 'chrome'
+      }, {
+      browserName: 'firefox'
+      }, {
+       browserName: 'MicrosoftEdge'
+      }
+    ],*/
+
   
     // Spec patterns are relative to the configuration file location passed
     // to protractor (in this example conf.js).
@@ -20,7 +31,7 @@ export let config: Config = {
   
     // Options to be passed to Jasmine-node.
     cucumberOpts: {
-        tags: '@smokeTest',
+        tags: '@hackathon',
         format: 'json:./Reports/cucumberreport.json',
         // require step definitions
         require: [

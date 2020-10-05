@@ -16,8 +16,9 @@ let localStorage = new LocalStorage('./Utils/scratch');
             let name = Scenario.pickle.name;
             await bp.setScenario(Scenario);
             await logger.Info(name + ": test started") 
+            //await browser.driver.manage().window().setSize(1200, 700);
             await browser.driver.manage().window().maximize();
-            await db.executeQuery(name);
+            //await db.executeQuery(name);
         } catch(Exception) {
             logger.Error(Exception);
         }
@@ -30,8 +31,8 @@ let localStorage = new LocalStorage('./Utils/scratch');
             await browser.takeScreenshot().then(async(screenshot) => {
                 await this.attach(screenshot, 'image/png');
                 await logger.Info(Scenario.result.status.toLowerCase());
-                await db.executeUpdate(localStorage.getItem('ID'),'Status', Scenario.result.status.toLowerCase());
-                await db.executeUpdate(localStorage.getItem('ID'),'ExecutionStatus', 'Executed');
+                /*await db.executeUpdate(localStorage.getItem('ID'),'Status', Scenario.result.status.toLowerCase());
+                await db.executeUpdate(localStorage.getItem('ID'),'ExecutionStatus', 'Executed');*/
             });
         } catch(Exception) {
             logger.Error(Exception);

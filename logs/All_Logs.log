@@ -2805,3 +2805,630 @@
 2019-04-05 17:05:10.473 | Info | 'passed' | 
 2019-04-05 17:05:10.476 | Info | 'Data: passed updated in column: Status for row number: 2' | 
 2019-04-05 17:05:10.478 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-04-28 12:40:49.363 | Info | 'Angular ~ Test: test started' | 
+2020-04-28 12:40:51.542 | Info | 'Angular---Test' | 
+2020-04-28 12:40:53.777 | Error | 'Error connecting database!' | 
+2020-04-28 12:40:54.912 | Info | 'Title = Angular' | 
+2020-04-28 12:40:54.916 | Info | 'Data: Angular updated in column: Title for row number: 2' | 
+2020-04-28 12:40:56.951 | Error | 'Error connecting database!' | 
+2020-04-28 12:40:57.119 | Info | 'clicked on getting started' | 
+2020-04-28 12:40:57.125 | Info | 'Angular ~ Test: test completed' | 
+2020-04-28 12:40:58.019 | Info | 'passed' | 
+2020-04-28 12:40:58.045 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-04-28 12:40:58.022 | Info | 'Data: passed updated in column: Status for row number: 2' | 
+2020-04-28 12:40:58.055 | Info | 'Angular ~ Test: test started' | 
+2020-04-28 12:40:58.090 | Info | 'Angular---Test' | 
+2020-04-28 12:41:01.009 | Info | 'Title = Angular' | 
+2020-04-28 12:41:01.014 | Info | 'Data: Angular updated in column: Title for row number: 2' | 
+2020-04-28 12:41:03.048 | Error | 'Error connecting database!' | 
+2020-04-28 12:41:03.073 | Fatal | ({'errno':'ECONNREFUSED','code':'ECONNREFUSED','syscall':'connect','address':'127.0.0.1','port':3306,'fatal':true}) | 
+2020-04-28 12:41:03.188 | Info | 'Angular ~ Test: test completed' | 
+2020-04-28 12:41:04.342 | Info | 'passed' | 
+2020-04-28 12:41:04.345 | Info | 'Data: passed updated in column: Status for row number: 2' | 
+2020-04-28 12:41:04.372 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-04-28 12:41:04.408 | Info | 'Service ~ Test: test started' | 
+2020-04-28 12:41:04.452 | Info | 'Service---Test' | 
+2020-04-28 12:41:04.534 | Info | 'Service ~ Test: test completed' | 
+2020-04-28 12:41:04.846 | Info | 'test{"statusCode":200,"body":"{\\"coord\\":{\\"lon\\":-0.13,\\"lat\\":51.51},\\"weather\\":[{\\"id\\":501,\\"main\\":\\"Rain\\",\\"description\\":\\"moderate rain\\",\\"icon\\":\\"10d\\"}],\\"base\\":\\"stations\\",\\"main\\":{\\"temp\\":281.53,\\"feels_like\\":277.68,\\"temp_min\\":280.37,\\"temp_max\\":282.59,\\"pressure\\":1004,\\"humidity\\":93},\\"visibility\\":10000,\\"wind\\":{\\"speed\\":4.6,\\"deg\\":70},\\"rain\\":{\\"1h\\":1.52},\\"clouds\\":{\\"all\\":100},\\"dt\\":1588091806,\\"sys\\":{\\"type\\":1,\\"id\\":1414,\\"country\\":\\"GB\\",\\"sunrise\\":1588048633,\\"sunset\\":1588101506},\\"timezone\\":3600,\\"id\\":2643743,\\"name\\":\\"London\\",\\"cod\\":200}","headers":{"server":"openresty","date":"Tue, 28 Apr 2020 16:41:05 GMT","content-type":"application/json; charset=utf-8","content-length":"485","connection":"close","x-cache-key":"/data/2.5/weather?APPID=8798416990564baefe42a06f33ec8515&q=london,uk","access-control-allow-origin":"*","access-control-allow-credentials":"true","access-control-allow-methods":"GET, POST"},"request":{"uri":{"protocol":"http:","slashes":true,"auth":null,"host":"api.openweathermap.org","port":80,"hostname":"api.openweathermap.org","hash":null,"search":"?q=London,uk&APPID=8798416990564baefe42a06f33ec8515","query":"q=London,uk&APPID=8798416990564baefe42a06f33ec8515","pathname":"/data/2.5/weather","path":"/data/2.5/weather?q=London,uk&APPID=8798416990564baefe42a06f33ec8515","href":"http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=8798416990564baefe42a06f33ec8515"},"method":"GET","headers":{}}}' | 
+2020-04-28 12:41:04.881 | Info | 200 | 
+2020-04-28 12:41:04.884 | Info | 'response from service request: {"coord":{"lon":-0.13,"lat":51.51},"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"base":"stations","main":{"temp":281.53,"feels_like":277.68,"temp_min":280.37,"temp_max":282.59,"pressure":1004,"humidity":93},"visibility":10000,"wind":{"speed":4.6,"deg":70},"rain":{"1h":1.52},"clouds":{"all":100},"dt":1588091806,"sys":{"type":1,"id":1414,"country":"GB","sunrise":1588048633,"sunset":1588101506},"timezone":3600,"id":2643743,"name":"London","cod":200}' | 
+2020-04-28 12:41:04.886 | Info | 'Data: 200 updated in column: ResponseCode for row number: 2' | 
+2020-04-28 12:41:05.665 | Info | 'passed' | 
+2020-04-28 12:41:05.670 | Info | 'Data: passed updated in column: Status for row number: 2' | 
+2020-04-28 12:41:05.702 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-04-28 12:41:05.740 | Info | 'Service ~ Test: test started' | 
+2020-04-28 12:41:05.789 | Info | 'Service---Test' | 
+2020-04-28 12:41:05.819 | Info | 'post request completed' | 
+2020-04-28 12:41:05.882 | Info | 'Service ~ Test: test completed' | 
+2020-04-28 12:41:06.890 | Error | 'Error connecting database!' | 
+2020-04-28 12:41:06.976 | Info | 'passed' | 
+2020-04-28 12:41:06.991 | Info | 'Data: passed updated in column: Status for row number: 2' | 
+2020-04-28 12:41:07.020 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-04-28 12:41:07.062 | Info | 'Calculation ~ Test: test started' | 
+2020-04-28 12:41:07.109 | Info | 'Calculation---Test' | 
+2020-04-28 12:41:08.789 | Info | 'statusCode for post request: 201' | 
+2020-04-28 12:41:08.793 | Info | 'Data: 201 updated in column: ResponseCode for row number: 2' | 
+2020-04-28 12:41:09.059 | Error | 'Error connecting database!' | 
+2020-04-28 12:41:09.182 | Error | 'Error connecting database!' | 
+2020-04-28 12:41:09.206 | Error | ({'errno':'ECONNREFUSED','code':'ECONNREFUSED','syscall':'connect','address':'127.0.0.1','port':3306,'fatal':true}) | 
+2020-04-28 12:41:09.308 | Info | 'Calculation ~ Test: test completed' | 
+2020-04-28 12:41:09.811 | Info | 'passed' | 
+2020-04-28 12:41:09.815 | Info | 'Data: passed updated in column: Status for row number: 2' | 
+2020-04-28 12:41:09.843 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-06-06 11:27:00.262 | Info | 'Angular ~ Test: test started' | 
+2020-06-06 11:27:02.427 | Info | 'Angular---Test' | 
+2020-06-06 11:27:04.786 | Error | 'Error connecting database!' | 
+2020-06-06 11:27:06.013 | Info | 'Title = Angular' | 
+2020-06-06 11:27:06.018 | Info | 'Data: Angular updated in column: Title for row number: 2' | 
+2020-06-06 11:27:08.059 | Error | 'Error connecting database!' | 
+2020-06-06 11:27:08.233 | Info | 'clicked on getting started' | 
+2020-06-06 11:27:08.238 | Info | 'Angular ~ Test: test completed' | 
+2020-06-06 11:27:08.905 | Info | 'Data: passed updated in column: Status for row number: 2' | 
+2020-06-06 11:27:08.933 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-06-06 11:27:08.902 | Info | 'passed' | 
+2020-06-06 11:27:08.966 | Info | 'Angular ~ Test: test started' | 
+2020-06-06 11:27:08.979 | Info | 'Angular---Test' | 
+2020-06-06 11:27:11.955 | Info | 'Title = Angular' | 
+2020-06-06 11:27:11.960 | Info | 'Data: Angular updated in column: Title for row number: 2' | 
+2020-06-06 11:27:13.995 | Error | 'Error connecting database!' | 
+2020-06-06 11:27:14.000 | Fatal | ({'errno':'ECONNREFUSED','code':'ECONNREFUSED','syscall':'connect','address':'127.0.0.1','port':3306,'fatal':true}) | 
+2020-06-06 11:27:14.111 | Info | 'Angular ~ Test: test completed' | 
+2020-06-06 11:27:14.678 | Info | 'passed' | 
+2020-06-06 11:27:14.710 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-06-06 11:27:14.682 | Info | 'Data: passed updated in column: Status for row number: 2' | 
+2020-06-06 11:27:14.717 | Info | 'Service ~ Test: test started' | 
+2020-06-06 11:27:14.760 | Info | 'Service---Test' | 
+2020-06-06 11:27:14.890 | Info | 'Service ~ Test: test completed' | 
+2020-06-06 11:27:15.421 | Info | 'passed' | 
+2020-06-06 11:27:15.425 | Info | 'Data: passed updated in column: Status for row number: 2' | 
+2020-06-06 11:27:15.454 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-06-06 11:27:15.462 | Info | 'Service ~ Test: test started' | 
+2020-06-06 11:27:15.502 | Info | 'Service---Test' | 
+2020-06-06 11:27:15.562 | Info | 'post request completed' | 
+2020-06-06 11:27:15.626 | Info | 'Service ~ Test: test completed' | 
+2020-06-06 11:27:15.820 | Info | 200 | 
+2020-06-06 11:27:15.740 | Info | 'test{"statusCode":200,"body":"{\\"coord\\":{\\"lon\\":-0.13,\\"lat\\":51.51},\\"weather\\":[{\\"id\\":500,\\"main\\":\\"Rain\\",\\"description\\":\\"light rain\\",\\"icon\\":\\"10d\\"}],\\"base\\":\\"stations\\",\\"main\\":{\\"temp\\":285.53,\\"feels_like\\":279.5,\\"temp_min\\":284.26,\\"temp_max\\":286.48,\\"pressure\\":998,\\"humidity\\":71},\\"visibility\\":10000,\\"wind\\":{\\"speed\\":7.7,\\"deg\\":230},\\"rain\\":{\\"1h\\":0.25},\\"clouds\\":{\\"all\\":90},\\"dt\\":1591457123,\\"sys\\":{\\"type\\":1,\\"id\\":1414,\\"country\\":\\"GB\\",\\"sunrise\\":1591415135,\\"sunset\\":1591474394},\\"timezone\\":3600,\\"id\\":2643743,\\"name\\":\\"London\\",\\"cod\\":200}","headers":{"server":"openresty","date":"Sat, 06 Jun 2020 15:27:07 GMT","content-type":"application/json; charset=utf-8","content-length":"480","connection":"close","x-cache-key":"/data/2.5/weather?APPID=8798416990564baefe42a06f33ec8515&q=london,uk","access-control-allow-origin":"*","access-control-allow-credentials":"true","access-control-allow-methods":"GET, POST"},"request":{"uri":{"protocol":"http:","slashes":true,"auth":null,"host":"api.openweathermap.org","port":80,"hostname":"api.openweathermap.org","hash":null,"search":"?q=London,uk&APPID=8798416990564baefe42a06f33ec8515","query":"q=London,uk&APPID=8798416990564baefe42a06f33ec8515","pathname":"/data/2.5/weather","path":"/data/2.5/weather?q=London,uk&APPID=8798416990564baefe42a06f33ec8515","href":"http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=8798416990564baefe42a06f33ec8515"},"method":"GET","headers":{}}}' | 
+2020-06-06 11:27:15.869 | Info | 'response from service request: {"coord":{"lon":-0.13,"lat":51.51},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"base":"stations","main":{"temp":285.53,"feels_like":279.5,"temp_min":284.26,"temp_max":286.48,"pressure":998,"humidity":71},"visibility":10000,"wind":{"speed":7.7,"deg":230},"rain":{"1h":0.25},"clouds":{"all":90},"dt":1591457123,"sys":{"type":1,"id":1414,"country":"GB","sunrise":1591415135,"sunset":1591474394},"timezone":3600,"id":2643743,"name":"London","cod":200}' | 
+2020-06-06 11:27:15.873 | Info | 'Data: 200 updated in column: ResponseCode for row number: 2' | 
+2020-06-06 11:27:16.196 | Info | 'passed' | 
+2020-06-06 11:27:16.211 | Info | 'Data: passed updated in column: Status for row number: 2' | 
+2020-06-06 11:27:16.280 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-06-06 11:27:16.290 | Info | 'Calculation ~ Test: test started' | 
+2020-06-06 11:27:16.303 | Info | 'Calculation---Test' | 
+2020-06-06 11:27:17.467 | Error | 'Error connecting database!' | 
+2020-06-06 11:27:17.929 | Error | 'Error connecting database!' | 
+2020-06-06 11:27:18.342 | Error | 'Error connecting database!' | 
+2020-06-06 11:27:18.346 | Error | ({'errno':'ECONNREFUSED','code':'ECONNREFUSED','syscall':'connect','address':'127.0.0.1','port':3306,'fatal':true}) | 
+2020-06-06 11:27:18.463 | Info | 'Calculation ~ Test: test completed' | 
+2020-06-06 11:27:18.970 | Info | 'Data: passed updated in column: Status for row number: 2' | 
+2020-06-06 11:27:19.000 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-06-06 11:27:18.967 | Info | 'passed' | 
+2020-06-06 11:37:36.796 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 11:37:38.960 | Info | 'Traditional---Test1' | 
+2020-06-06 11:37:41.229 | Error | 'Error connecting database!' | 
+2020-06-06 11:37:54.378 | Fatal | ({}) | 
+2020-06-06 11:37:54.458 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 11:37:55.354 | Info | 'failed' | 
+2020-06-06 11:37:55.360 | Info | 'Data: failed updated in column: Status for row number: 2' | 
+2020-06-06 11:37:55.390 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-06-06 11:40:13.111 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 11:40:31.238 | Fatal | ({}) | 
+2020-06-06 11:40:31.300 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 11:40:32.407 | Info | 'Data: failed updated in column: Status for row number: 2' | 
+2020-06-06 11:40:32.180 | Info | 'failed' | 
+2020-06-06 11:40:32.411 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-06-06 11:44:29.850 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 11:44:46.946 | Fatal | ({}) | 
+2020-06-06 11:44:47.008 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 11:44:47.837 | Info | 'failed' | 
+2020-06-06 11:44:48.066 | Info | 'Data: failed updated in column: Status for row number: 2' | 
+2020-06-06 11:44:48.070 | Info | 'Data: Executed updated in column: ExecutionStatus for row number: 2' | 
+2020-06-06 11:46:17.971 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 11:46:24.089 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 11:46:25.041 | Info | 'failed' | 
+2020-06-06 12:47:13.025 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 12:47:19.270 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 12:47:19.939 | Info | 'failed' | 
+2020-06-06 12:49:08.412 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 12:49:15.696 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 12:49:16.326 | Info | 'failed' | 
+2020-06-06 12:50:52.028 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 12:51:03.715 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 12:51:04.282 | Info | 'failed' | 
+2020-06-06 12:56:54.714 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 12:57:01.991 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 12:57:02.601 | Info | 'passed' | 
+2020-06-06 12:57:25.836 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 12:57:32.808 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 12:57:33.415 | Info | 'passed' | 
+2020-06-06 13:10:54.835 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 13:11:04.171 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 13:11:04.762 | Info | 'passed' | 
+2020-06-06 13:55:39.907 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 13:55:44.915 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 13:55:45.267 | Info | 'passed' | 
+2020-06-06 13:57:56.246 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 13:58:01.389 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 13:58:01.715 | Info | 'passed' | 
+2020-06-06 14:05:21.997 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 14:05:22.010 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 14:05:36.479 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 14:05:36.787 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 14:05:37.122 | Info | 'passed' | 
+2020-06-06 14:05:37.238 | Info | 'passed' | 
+2020-06-06 14:10:08.471 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 14:10:09.161 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 14:10:12.573 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 14:10:12.904 | Info | 'passed' | 
+2020-06-06 14:10:16.837 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 14:10:17.574 | Info | 'passed' | 
+2020-06-06 14:39:21.390 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 14:39:22.134 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 14:39:27.446 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 14:39:27.792 | Info | 'passed' | 
+2020-06-06 14:39:29.490 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 14:39:30.285 | Info | 'passed' | 
+2020-06-06 15:08:10.575 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 15:08:11.903 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 15:08:16.245 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 15:08:16.627 | Info | 'passed' | 
+2020-06-06 15:08:19.416 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 15:08:20.042 | Info | 'passed' | 
+2020-06-06 15:11:50.641 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 15:11:50.646 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 15:11:54.983 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 15:11:55.433 | Info | 'passed' | 
+2020-06-06 15:11:56.820 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 15:11:57.509 | Info | 'passed' | 
+2020-06-06 15:14:14.424 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 15:14:15.876 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 15:14:21.660 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 15:14:21.935 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 15:14:22.286 | Info | 'passed' | 
+2020-06-06 15:14:22.398 | Info | 'passed' | 
+2020-06-06 15:18:15.090 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 15:18:15.134 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 15:18:19.255 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 15:18:19.663 | Info | 'passed' | 
+2020-06-06 15:18:19.823 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-06 15:18:21.291 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 15:18:21.967 | Info | 'passed' | 
+2020-06-06 15:18:26.390 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-06 15:18:27.032 | Info | 'passed' | 
+2020-06-07 02:39:29.393 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 02:39:32.087 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 02:39:32.846 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 02:39:35.451 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 02:39:36.311 | Info | 'passed' | 
+2020-06-07 02:39:37.661 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 02:39:38.408 | Info | 'passed' | 
+2020-06-07 02:39:38.633 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 02:39:39.518 | Info | 'passed' | 
+2020-06-07 02:40:49.343 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 02:40:49.459 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 02:40:53.080 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 02:40:55.888 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 02:40:56.993 | Info | 'passed' | 
+2020-06-07 02:40:57.419 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 02:40:57.705 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 02:40:58.146 | Info | 'passed' | 
+2020-06-07 02:40:58.756 | Info | 'passed' | 
+2020-06-07 03:00:00.646 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 03:00:01.902 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 03:00:02.059 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 03:00:06.704 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 03:00:07.197 | Info | 'passed' | 
+2020-06-07 03:00:10.685 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 03:00:10.989 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 03:00:11.465 | Info | 'passed' | 
+2020-06-07 03:00:11.798 | Info | 'passed' | 
+2020-06-07 04:17:49.024 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 04:17:51.862 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 04:17:52.231 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 04:17:56.489 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 04:17:56.516 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 04:17:57.213 | Info | 'passed' | 
+2020-06-07 04:17:57.802 | Info | 'passed' | 
+2020-06-07 04:18:00.090 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 04:18:00.950 | Info | 'passed' | 
+2020-06-07 04:19:58.188 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 04:19:58.536 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 04:20:00.373 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-07 04:20:07.238 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 04:20:07.685 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 04:20:07.990 | Info | 'passed' | 
+2020-06-07 04:20:08.914 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-07 04:20:08.996 | Info | 'passed' | 
+2020-06-07 04:20:09.760 | Info | 'passed' | 
+2020-06-07 04:37:35.469 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 04:37:35.577 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 04:37:37.712 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 04:37:44.092 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 04:37:44.651 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 04:37:44.732 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 04:37:44.973 | Info | 'passed' | 
+2020-06-07 04:37:45.403 | Info | 'passed' | 
+2020-06-07 04:37:45.551 | Info | 'passed' | 
+2020-06-07 04:52:12.928 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 04:52:22.794 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 04:52:23.621 | Info | 'passed' | 
+2020-06-07 04:55:35.685 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 04:55:42.949 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 04:55:43.739 | Info | 'passed' | 
+2020-06-07 05:22:38.026 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 05:22:46.133 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 05:22:47.046 | Info | 'passed' | 
+2020-06-07 05:23:34.843 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 05:23:42.321 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 05:23:43.269 | Info | 'passed' | 
+2020-06-07 05:25:14.631 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 05:25:22.551 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 05:25:23.481 | Info | 'passed' | 
+2020-06-07 05:29:52.965 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 05:30:01.639 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 05:31:45.514 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 05:31:53.816 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 05:31:55.163 | Info | 'passed' | 
+2020-06-07 05:33:44.780 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 05:33:52.197 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 05:33:53.510 | Info | 'passed' | 
+2020-06-07 05:43:19.080 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 05:43:30.658 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 05:43:31.539 | Info | 'passed' | 
+2020-06-07 05:47:49.700 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 05:47:58.686 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 05:47:59.526 | Info | 'passed' | 
+2020-06-07 05:49:13.668 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 05:49:24.474 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 05:49:25.337 | Info | 'passed' | 
+2020-06-07 05:52:29.794 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 05:52:37.578 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 05:52:38.443 | Info | 'passed' | 
+2020-06-07 05:59:01.685 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 05:59:09.417 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 05:59:10.312 | Info | 'passed' | 
+2020-06-07 06:00:10.748 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:00:20.609 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:00:21.393 | Info | 'passed' | 
+2020-06-07 06:01:54.492 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:02:01.775 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:02:02.669 | Info | 'passed' | 
+2020-06-07 06:04:25.669 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:04:34.006 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:04:34.876 | Info | 'passed' | 
+2020-06-07 06:06:27.902 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:06:35.994 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:06:37.433 | Info | 'passed' | 
+2020-06-07 06:12:43.837 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:12:53.944 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:12:54.819 | Info | 'passed' | 
+2020-06-07 06:27:57.544 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:28:05.205 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:28:05.908 | Info | 'passed' | 
+2020-06-07 06:31:15.878 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:31:23.607 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:31:24.463 | Info | 'passed' | 
+2020-06-07 06:33:04.163 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:33:08.881 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:33:09.092 | Info | 'passed' | 
+2020-06-07 06:34:16.479 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:34:23.914 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:34:24.482 | Info | 'passed' | 
+2020-06-07 06:41:54.298 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:42:01.110 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:42:01.663 | Info | 'passed' | 
+2020-06-07 06:43:38.720 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:43:44.669 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:43:45.494 | Info | 'passed' | 
+2020-06-07 06:45:22.511 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:45:28.351 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:45:29.070 | Info | 'passed' | 
+2020-06-07 06:49:42.031 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:49:48.685 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:49:49.443 | Info | 'passed' | 
+2020-06-07 06:51:05.159 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:51:12.418 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:51:13.270 | Info | 'passed' | 
+2020-06-07 06:57:58.016 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:58:04.826 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:58:15.340 | Info | 'passed' | 
+2020-06-07 06:58:43.738 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 06:58:49.704 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 06:58:50.410 | Info | 'passed' | 
+2020-06-07 07:02:57.846 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:03:04.797 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:03:05.535 | Info | 'passed' | 
+2020-06-07 07:04:18.181 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:04:24.417 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:04:25.145 | Info | 'passed' | 
+2020-06-07 07:05:25.154 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:05:31.245 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:05:31.925 | Info | 'passed' | 
+2020-06-07 07:06:47.768 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:06:59.687 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:07:00.370 | Info | 'passed' | 
+2020-06-07 07:15:12.985 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:15:19.289 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:15:20.025 | Info | 'passed' | 
+2020-06-07 07:22:01.401 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:22:08.468 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:22:09.256 | Info | 'passed' | 
+2020-06-07 07:25:38.187 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:25:47.037 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:25:47.843 | Info | 'passed' | 
+2020-06-07 07:27:23.862 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:27:29.770 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:27:30.555 | Info | 'passed' | 
+2020-06-07 07:28:58.291 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:29:07.087 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:29:07.797 | Info | 'passed' | 
+2020-06-07 07:30:10.511 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:30:16.618 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:30:17.353 | Info | 'passed' | 
+2020-06-07 07:37:27.148 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:37:32.909 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:37:33.722 | Info | 'passed' | 
+2020-06-07 07:42:48.143 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:42:54.463 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:42:55.264 | Info | 'passed' | 
+2020-06-07 07:48:22.455 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:48:28.390 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:48:29.149 | Info | 'passed' | 
+2020-06-07 07:52:57.663 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:53:04.770 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:53:05.579 | Info | 'passed' | 
+2020-06-07 07:54:08.922 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:54:17.460 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:54:18.282 | Info | 'passed' | 
+2020-06-07 07:56:05.606 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:56:12.039 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:56:12.757 | Info | 'passed' | 
+2020-06-07 07:57:28.349 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:57:34.163 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:57:34.979 | Info | 'passed' | 
+2020-06-07 07:59:24.168 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 07:59:31.549 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 07:59:32.295 | Info | 'passed' | 
+2020-06-07 08:00:25.606 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 08:00:32.560 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 08:00:33.284 | Info | 'passed' | 
+2020-06-07 08:01:28.905 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 08:01:34.701 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 08:01:35.472 | Info | 'passed' | 
+2020-06-07 08:08:05.408 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 08:08:13.065 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 08:08:13.752 | Info | 'passed' | 
+2020-06-07 08:08:53.447 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 08:09:00.666 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 08:09:01.360 | Info | 'passed' | 
+2020-06-07 08:10:16.303 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 08:10:22.069 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 08:10:22.706 | Info | 'passed' | 
+2020-06-07 08:11:27.994 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 08:11:35.156 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 08:11:35.858 | Info | 'passed' | 
+2020-06-07 08:12:53.491 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 08:12:59.220 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 08:12:59.831 | Info | 'passed' | 
+2020-06-07 08:31:57.634 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 08:32:03.586 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 08:32:04.309 | Info | 'passed' | 
+2020-06-07 08:33:48.529 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 08:33:54.667 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 08:33:55.370 | Info | 'passed' | 
+2020-06-07 08:35:14.188 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 08:35:20.259 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 08:35:20.965 | Info | 'passed' | 
+2020-06-07 08:38:04.910 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 08:38:11.118 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 08:38:11.802 | Info | 'passed' | 
+2020-06-07 08:38:49.984 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 08:38:58.500 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 08:38:59.586 | Info | 'passed' | 
+2020-06-07 09:21:01.007 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:21:08.618 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:21:09.675 | Info | 'passed' | 
+2020-06-07 09:23:03.953 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:23:10.200 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:23:11.305 | Info | 'passed' | 
+2020-06-07 09:24:14.603 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:24:20.983 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:24:21.959 | Info | 'passed' | 
+2020-06-07 09:26:37.183 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:26:45.562 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:26:46.762 | Info | 'passed' | 
+2020-06-07 09:30:17.230 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:30:23.759 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:30:24.695 | Info | 'passed' | 
+2020-06-07 09:31:10.544 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:31:17.751 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:31:18.752 | Info | 'passed' | 
+2020-06-07 09:33:46.551 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:33:52.764 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:33:53.831 | Info | 'passed' | 
+2020-06-07 09:36:07.884 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:36:16.118 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:36:17.196 | Info | 'passed' | 
+2020-06-07 09:39:23.998 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:39:31.031 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:39:32.007 | Info | 'passed' | 
+2020-06-07 09:41:05.910 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:41:12.251 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:41:13.368 | Info | 'passed' | 
+2020-06-07 09:44:19.430 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:44:27.214 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:44:28.249 | Info | 'passed' | 
+2020-06-07 09:50:12.269 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:50:18.991 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:50:20.121 | Info | 'passed' | 
+2020-06-07 09:51:38.389 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:51:44.750 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:51:45.784 | Info | 'passed' | 
+2020-06-07 09:55:06.886 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:55:13.027 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:55:14.020 | Info | 'passed' | 
+2020-06-07 09:58:40.431 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 09:58:48.746 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 09:58:49.833 | Info | 'passed' | 
+2020-06-07 10:00:41.972 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 10:00:48.260 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 10:00:49.254 | Info | 'passed' | 
+2020-06-07 10:02:01.902 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 10:02:13.838 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 10:02:14.821 | Info | 'passed' | 
+2020-06-07 10:03:13.078 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 10:03:19.337 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 10:03:20.295 | Info | 'passed' | 
+2020-06-07 10:12:25.227 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 10:12:31.453 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 10:12:32.362 | Info | 'passed' | 
+2020-06-07 10:21:54.946 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 10:22:01.785 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 10:22:02.835 | Info | 'passed' | 
+2020-06-07 10:22:55.213 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 10:23:01.707 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 10:23:02.710 | Info | 'passed' | 
+2020-06-07 10:25:41.815 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 10:25:48.925 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 10:25:49.935 | Info | 'passed' | 
+2020-06-07 10:27:40.003 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 10:27:47.621 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 10:27:48.645 | Info | 'passed' | 
+2020-06-07 10:35:06.502 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 10:35:14.367 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 10:35:15.311 | Info | 'passed' | 
+2020-06-07 10:38:23.337 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 10:38:38.627 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 10:38:39.626 | Info | 'failed' | 
+2020-06-07 10:39:31.506 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-07 10:39:40.613 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-07 10:39:41.518 | Info | 'passed' | 
+2020-06-10 12:23:06.722 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 12:23:13.989 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 12:23:15.096 | Info | 'failed' | 
+2020-06-10 12:25:06.384 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 12:25:15.129 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 12:25:16.171 | Info | 'failed' | 
+2020-06-10 12:30:07.805 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 12:30:16.148 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 12:30:17.052 | Info | 'passed' | 
+2020-06-10 12:42:25.414 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 12:44:50.407 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 12:48:45.541 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 12:48:59.717 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 12:49:00.508 | Info | 'passed' | 
+2020-06-10 12:50:22.408 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 12:50:37.127 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 12:50:37.911 | Info | 'passed' | 
+2020-06-10 12:56:24.609 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 12:56:36.565 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 12:56:37.395 | Info | 'passed' | 
+2020-06-10 12:58:16.468 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 12:58:34.391 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 12:58:35.214 | Info | 'passed' | 
+2020-06-10 12:59:31.727 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 12:59:32.603 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 12:59:35.363 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 12:59:44.985 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 12:59:45.576 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 12:59:46.265 | Info | 'passed' | 
+2020-06-10 12:59:46.441 | Info | 'passed' | 
+2020-06-10 12:59:46.564 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 12:59:47.617 | Info | 'passed' | 
+2020-06-10 13:13:47.015 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 13:13:47.111 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 13:13:50.001 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 13:13:57.281 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 13:13:57.668 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 13:13:58.631 | Info | 'failed' | 
+2020-06-10 13:13:58.748 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 13:13:58.825 | Info | 'failed' | 
+2020-06-10 13:14:00.183 | Info | 'failed' | 
+2020-06-10 13:17:48.922 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 13:17:48.976 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 13:17:49.606 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 13:18:00.743 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 13:18:01.484 | Info | 'passed' | 
+2020-06-10 13:18:01.491 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 13:18:03.628 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 13:18:04.860 | Info | 'passed' | 
+2020-06-10 13:18:04.871 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 13:18:04.915 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 13:18:06.050 | Info | 'passed' | 
+2020-06-10 13:18:06.060 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 13:18:06.712 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 13:18:07.334 | Info | 'passed' | 
+2020-06-10 13:18:09.684 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 13:18:10.841 | Info | 'passed' | 
+2020-06-10 13:18:10.925 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 13:18:11.789 | Info | 'passed' | 
+2020-06-10 13:19:52.081 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 13:19:52.094 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 13:19:53.907 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 13:20:12.781 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 13:20:13.546 | Info | 'passed' | 
+2020-06-10 13:20:13.555 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 13:20:14.399 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 13:20:15.103 | Info | 'passed' | 
+2020-06-10 13:20:15.112 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 13:20:18.637 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 13:20:19.409 | Info | 'passed' | 
+2020-06-10 13:20:20.250 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 13:20:20.593 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 13:20:21.191 | Info | 'passed' | 
+2020-06-10 13:20:21.507 | Info | 'passed' | 
+2020-06-10 13:20:21.516 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 13:20:26.563 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 13:20:27.878 | Info | 'passed' | 
+2020-06-10 13:34:04.967 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 13:34:05.092 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 13:34:07.595 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-10 13:34:18.915 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 13:34:19.560 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 13:34:19.625 | Info | 'passed' | 
+2020-06-10 13:34:19.628 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 13:34:20.056 | Info | 'passed' | 
+2020-06-10 13:34:20.062 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 13:34:22.210 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-10 13:34:22.929 | Info | 'passed' | 
+2020-06-10 13:34:22.938 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-10 13:34:24.294 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 13:34:24.972 | Info | 'passed' | 
+2020-06-10 13:34:25.140 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 13:34:25.536 | Info | 'passed' | 
+2020-06-10 13:34:27.408 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-10 13:34:28.202 | Info | 'passed' | 
+2020-06-11 09:55:42.915 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-11 09:55:43.566 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-11 09:55:43.920 | Info | 'Traditional ~ Test1: test started' | 
+2020-06-11 09:55:57.090 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-11 09:55:57.639 | Info | 'passed' | 
+2020-06-11 09:55:57.647 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-11 09:56:00.693 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-11 09:56:01.723 | Info | 'Traditional ~ Test1: test completed' | 
+2020-06-11 09:56:01.844 | Info | 'passed' | 
+2020-06-11 09:56:01.854 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-11 09:56:02.662 | Info | 'passed' | 
+2020-06-11 09:56:02.671 | Info | 'Traditional ~ Test2: test started' | 
+2020-06-11 09:56:03.331 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-11 09:56:03.804 | Info | 'passed' | 
+2020-06-11 09:56:06.828 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-11 09:56:07.596 | Info | 'Traditional ~ Test2: test completed' | 
+2020-06-11 09:56:08.044 | Info | 'passed' | 
+2020-06-11 09:56:08.423 | Info | 'passed' | 
+2020-10-04 19:32:43.064 | Info | 'Traditional ~ Test1: test started' | 
+2020-10-04 19:32:45.215 | Info | 'Traditional---Test1' | 
+2020-10-04 19:32:47.528 | Error | 'Error connecting database!' | 
+2020-10-04 19:32:58.128 | Info | 'Traditional ~ Test1: test completed' | 
+2020-10-04 19:32:58.743 | Info | 'passed' | 
+2020-10-04 19:32:58.753 | Info | 'Traditional ~ Test2: test started' | 
+2020-10-04 19:32:58.887 | Info | 'Traditional---Test2' | 
+2020-10-04 19:33:00.900 | Error | 'Error connecting database!' | 
+2020-10-04 19:33:03.236 | Info | 'Traditional ~ Test2: test completed' | 
+2020-10-04 19:33:03.833 | Info | 'passed' | 
+2020-10-04 19:51:29.495 | Info | 'Traditional ~ Test1: test started' | 
+2020-10-04 19:51:37.042 | Info | 'Traditional ~ Test1: test completed' | 
+2020-10-04 19:51:37.611 | Info | 'passed' | 
+2020-10-04 19:51:37.619 | Info | 'Traditional ~ Test2: test started' | 
+2020-10-04 19:51:41.865 | Info | 'Traditional ~ Test2: test completed' | 
+2020-10-04 19:51:42.404 | Info | 'passed' | 

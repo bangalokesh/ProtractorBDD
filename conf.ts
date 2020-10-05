@@ -4,12 +4,23 @@ import {Config} from 'protractor';
 export let config: Config = {
     // The address of a running selenium server.
     //seleniumAddress: 'http://localhost:4444/wd/hub',
-    directConnect: true,
+    seleniumAddress: 'http://192.168.1.8:4444/wd/hub',
+    directConnect: false,
+
     // Capabilities to be passed to the webdriver instance.
     
-    capabilities: {
+    /*capabilities: {
+      browserName: 'firefox'
+    },*/
+
+    multiCapabilities: [{
+      browserName: 'firefox'
+      }, {
       browserName: 'chrome'
-    },
+      }, {
+       browserName: 'MicrosoftEdge'
+      }
+    ],
   
     // Spec patterns are relative to the configuration file location passed
     // to protractor (in this example conf.js).

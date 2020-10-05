@@ -1,7 +1,7 @@
 import { Given, When, Then, World, Scenario } from 'cucumber';
 import { browser, element, by } from "protractor";
 import chai from "chai";
-import { async } from "q";
+//import { async } from "q";
 import * as reporter from 'cucumber-html-reporter';
 import { homepage} from "../Pages/PageClasses/homepage";
 import { todpage } from '../Pages/PageClasses/todpage';
@@ -15,9 +15,11 @@ import { api } from '../Utils/api';
 import { apiservicetest } from '../Pages/PageClasses/apiservicetest';
 import {options} from '../log4jconfig';
 import { juliemrs } from '../Pages/PageClasses/juliemrs';
+import { TraditionalTest1 } from '../Pages/PageClasses/TraditionalTest1';
 const logger = require('node-file-logger');
 logger.SetUserOptions(options);
 let home = new homepage();
+let hack1 = new TraditionalTest1();
 let tod = new todpage();
 let dbcon = new dbconnect();
 let bp = new basepage();
@@ -27,6 +29,16 @@ let ang = new angularhome();
 let db = new dbconnect();
 let apiser = new apiservicetest();
 let julimrcal = new juliemrs();
+
+    Given('I go to hackathon site', async() => {
+        await hack1.navigate();
+        await hack1.test1();
+    });
+
+    Then ('I go to hackathon site two', async() => {
+        await hack1.navigate();
+        await hack1.test1();
+    });
 
 
     Given('I go to the site', async () => {
@@ -97,4 +109,6 @@ let julimrcal = new juliemrs();
     Given ('i would like to test calc', async() => {
         return julimrcal.calcMethod('+');
     });
+
+    
     

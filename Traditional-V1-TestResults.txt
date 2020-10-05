@@ -1,0 +1,40 @@
+"Task: 1, Test Name: Search field is displayed, DOM Id: INPUTtext____42, Browser: firefox, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Icon is displayed, DOM Id: I__headericon__44, Browser: firefox, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: Number of Filtered Products, DOM Id: 2, Browser: firefox, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search field is displayed, DOM Id: INPUTtext____42, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Icon is displayed, DOM Id: I__headericon__44, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: Number of Filtered Products, DOM Id: 2, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search field is displayed, DOM Id: INPUTtext____42, Browser: msedge, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Icon is displayed, DOM Id: I__headericon__44, Browser: msedge, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: Number of Filtered Products, DOM Id: 2, Browser: msedge, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Product Details Test, DOM Id: Appli Air x Night, Browser: firefox, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search field is displayed, DOM Id: INPUTtext____42, Browser: firefox, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Icon is displayed, DOM Id: I__headericon__44, Browser: firefox, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: Number of Filtered Products, DOM Id: 2, Browser: firefox, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Product Details Test, DOM Id: Appli Air x Night, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Product Details Test, DOM Id: Appli Air x Night, Browser: msedge, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search field is displayed, DOM Id: INPUTtext____42, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Icon is displayed, DOM Id: I__headericon__44, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Product Details Test, DOM Id: Appli Air x Night, Browser: firefox, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: Number of Filtered Products, DOM Id: 2, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search field is displayed, DOM Id: INPUTtext____42, Browser: msedge, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Icon is displayed, DOM Id: I__headericon__44, Browser: msedge, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: Number of Filtered Products, DOM Id: 2, Browser: msedge, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Product Details Test, DOM Id: Appli Air x Night, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Product Details Test, DOM Id: Appli Air x Night, Browser: msedge, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search field is displayed, DOM Id: INPUTtext____42, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Icon is displayed, DOM Id: I__headericon__44, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: Number of Filtered Products, DOM Id: 2, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Product Details Test, DOM Id: Appli Air x Night, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search field is displayed, DOM Id: INPUTtext____42, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Icon is displayed, DOM Id: I__headericon__44, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: Number of Filtered Products, DOM Id: 2, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Product Details Test, DOM Id: Appli Air x Night, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search field is displayed, DOM Id: INPUTtext____42, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Icon is displayed, DOM Id: I__headericon__44, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: Number of Filtered Products, DOM Id: 2, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Product Details Test, DOM Id: Appli Air x Night, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search field is displayed, DOM Id: INPUTtext____42, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 1, Test Name: Search Icon is displayed, DOM Id: I__headericon__44, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 2, Test Name: Number of Filtered Products, DOM Id: 2, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
+"Task: 3, Test Name: Product Details Test, DOM Id: Appli Air x Night, Browser: chrome, Viewport: 1200 * 700, Device: Laptop, Status: Pass
