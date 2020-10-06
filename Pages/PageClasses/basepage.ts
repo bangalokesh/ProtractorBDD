@@ -18,7 +18,7 @@ export class basepage{
         browser.takeScreenshot().then(async(png)=>{
             let decodedImage = new Buffer (png, 'base64').toString('binary');
             let sc = this.getScenario().then(function(World){
-                this.attach(World, 'image/png');
+                this.attach(decodedImage, 'image/png');
             });
         });
     }
